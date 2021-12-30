@@ -75,7 +75,6 @@ export const SitesProvider: React.FC = ({ children }) => {
       setLoading(false)
     } catch (error) {
       console.error(error)
-      setLoading(false)
     }
   }
 

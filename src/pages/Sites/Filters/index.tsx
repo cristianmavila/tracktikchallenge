@@ -15,6 +15,7 @@ const SitesFilters = () => {
 
   const onChangeClient = (e: any) => {
     setPage(0)
+    setQuery('')
     setClientId(e.target.value)
   }
 
