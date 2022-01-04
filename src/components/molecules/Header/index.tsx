@@ -73,7 +73,10 @@ const Header = ({ children }: { children: React.ReactNode }) => {
             </Dropdown>
           </Col>
         </Container>
-        <Container fluid className="border-top border-white px-0">
+        <Container
+          fluid
+          className="border-top border-white px-0 overflow-hidden"
+        >
           {children}
         </Container>
       </div>
